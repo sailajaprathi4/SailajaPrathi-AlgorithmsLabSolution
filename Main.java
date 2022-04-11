@@ -1,10 +1,9 @@
-package com.gl.lab2.travellerproblem;
-
-public class Main
+package com.gl.lab2.paymoney;
+public class Main 
 {
-	public static void main(String[] args) 
-	{
-			TravellerCurrencySpendUI ui = new TravellerCurrencySpendUI();
-		ui.init();
+public static void main(String[] args)
+{
+		PayMoneyTransactionUI ui = new PayMoneyTransactionUI();
+		ui.init();		
 	}
 }
